@@ -1,5 +1,5 @@
 {% set name = "cifkit" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: da6ee47508c4f03f1636f0e55e95bfb697e89886b8b4ff45a0011bfca4b4b6be
+  sha256: 0ddb5d97a5d784d4f8c161a53ccceab72d0f8c1016c393b71b38d286f1f9a72f
 
 build:
   noarch: python
