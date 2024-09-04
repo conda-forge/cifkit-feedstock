@@ -35,6 +35,7 @@ test:
     - cifkit
   commands:
     - pip check
+    - pytest -m "not pyvista"
   requires:
     - pip
 
