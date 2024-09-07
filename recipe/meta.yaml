@@ -1,13 +1,13 @@
 {% set name = "cifkit" %}
-{%- set version = "1.0.4" -%}
+{%- set version = "1.0.4rc2" -%}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0ddb5d97a5d784d4f8c161a53ccceab72d0f8c1016c393b71b38d286f1f9a72f
+  url: https://test.pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 56f3b4ef24c4193953378ee2e67ac02380269a18fd3d06cc82fee7e80ee20593
 
 build:
   noarch: python
@@ -35,8 +35,10 @@ test:
     - cifkit
   commands:
     - pip check
+    - pytest
   requires:
     - pip
+    - pytest
 
 about:
   home: https://github.com/bobleesj/cifkit
