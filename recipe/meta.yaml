@@ -33,11 +33,13 @@ requirements:
 test:
   imports:
     - cifkit
-  commands:
-    - pip check
-    - pytest
   requires:
     - pip
+    - pytest
+  source_files:
+    - tests
+  commands:
+    - pip check
     - pytest
 
 about:
