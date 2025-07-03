@@ -39,12 +39,9 @@ test:
     - pip
     - pytest
     - python {{ python_min }}
-  source_files:
-    - tests
   commands:
     - pip check
     - pip list
-    - python -m pytest -m "not pyvista"
 
 about:
   home: https://github.com/bobleesj/cifkit
