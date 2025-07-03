@@ -30,6 +30,7 @@ requirements:
     - pyvista
     - scipy
     - click
+    - moviepy
     - bobleesj.utils
 
 test:
