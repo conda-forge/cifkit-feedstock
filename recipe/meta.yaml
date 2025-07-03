@@ -29,7 +29,6 @@ requirements:
     - numpy
     - pyvista
     - scipy
-    - setuptools
     - click
     - bobleesj.utils
 
