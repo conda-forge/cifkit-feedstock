@@ -48,9 +48,8 @@ about:
   summary: 'Python package for .cif high-throughput analysis'
   description: |
     cifkit is an open-source Python library for preprocessing .cif files, generating supercells, and extract features.
-  license: MIT
-  license_family: MIT
-  license_file: LICENSE
+  license: Free To Use But Restricted
+  license_file: LICENSE.rst
   doc_url: https://bobleesj.github.io/cifkit/
 
 extra:
